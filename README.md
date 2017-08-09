@@ -38,7 +38,7 @@ After installing, the `rfsend` tool will be available in your `PATH`.
 Here's an example of sending a command to a UC7070T (Harbor Breeze) fan to toggle the light on/off:
 ```bash
 # GPIO pin 23 / fan dipswitch set to 1101
-rpi-rftx -g 23 -t uc7070t -b 111010000001
+rfsend -g 23 -t uc7070t -b 111010000001
 ```
 
 # Credits
